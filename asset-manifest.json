@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FreddyFazbear/static/css/main.fda7d26e.css",
-    "main.js": "/FreddyFazbear/static/js/main.938b9543.js",
+    "main.js": "/FreddyFazbear/static/js/main.11ac626a.js",
     "static/js/787.90d7dfcd.chunk.js": "/FreddyFazbear/static/js/787.90d7dfcd.chunk.js",
     "static/media/restaurante3.png": "/FreddyFazbear/static/media/restaurante3.8ee9de73db76e4e4531e.png",
     "static/media/restaurante2.webp": "/FreddyFazbear/static/media/restaurante2.e47c5e62fe96ec896df3.webp",
@@ -14,11 +14,11 @@
     "static/media/logo.svg": "/FreddyFazbear/static/media/logo.96589248e8fe0430bde4be8b410c7774.svg",
     "index.html": "/FreddyFazbear/index.html",
     "main.fda7d26e.css.map": "/FreddyFazbear/static/css/main.fda7d26e.css.map",
-    "main.938b9543.js.map": "/FreddyFazbear/static/js/main.938b9543.js.map",
+    "main.11ac626a.js.map": "/FreddyFazbear/static/js/main.11ac626a.js.map",
     "787.90d7dfcd.chunk.js.map": "/FreddyFazbear/static/js/787.90d7dfcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fda7d26e.css",
-    "static/js/main.938b9543.js"
+    "static/js/main.11ac626a.js"
   ]
 }
