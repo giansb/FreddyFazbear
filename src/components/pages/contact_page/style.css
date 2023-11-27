@@ -1,0 +1,55 @@
+.sobre-cont h2{
+    color: white;
+    font-size: 30px;
+    
+  }
+
+  .sobre-cont{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 50px;
+    text-align: center;
+  }
+
+  .sobre-cont p {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px 0;
+  }
+
+.imagem-c{
+    width: 1000px;
+}
+
+.image1{
+    background: url(../../../../public/images/restaurante1.jpg);
+    width: 800px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.image2{
+    background: url(../../../../public/images/restaurante2.webp);
+    width: 800px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.image3{
+    background: url(../../../../public/images/restaurante3.png);
+    width: 800px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.carrousel-container{
+    max-width: 1024px;
+    margin: 0 auto;
+    z-index: 1;
+}

@@ -1,0 +1,190 @@
+.logo{
+    height: 150px;
+    padding: 10px;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+
+
+.header-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+}
+
+nav a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    transition-delay: 50ms;
+    transition-duration: 200ms;
+    position: relative;
+    top:0;
+}
+nav a:hover{
+    text-shadow: 3px 0px 7px rgba(255, 196, 0, 0.8), -3px 0px 7px rgba(255, 196, 0, 0.8), 0px 4px 7px rgba(81,67,21,0.8);
+    position: relative;
+    top: -5px;
+    font-size: 22px;
+}
+
+.cab-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    position: relative;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    border: 0;
+    background: transparent;
+    border-radius: 0;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    margin-left: 26px;
+    touch-action: manipulation;
+    pointer-events: auto;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-appearance: none;
+    z-index: 99;
+  }
+
+  .icon-bar {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #f5f5f5;
+    transition: .3s;
+  }
+  .icon-bar + .icon-bar {
+    margin-top: 5px;
+  }
+  
+  header:focus-within .icon-bar:nth-of-type(1) {
+    transform: translate3d(0,8px,0) rotate(45deg);
+  }
+  header:focus-within .icon-bar:nth-of-type(2) {
+    opacity: 0;
+  }
+  header:focus-within .icon-bar:nth-of-type(3) {
+    transform: translate3d(0,-8px,0) rotate(-45deg);
+  }
+  
+  .espaco{
+    height: 150px;
+  }
+
+
+@media(max-width: 1140px){
+    .header-cont{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 ;
+        padding: 20px 0;
+    }
+
+    .espaco{
+      height: 230px;
+    }
+
+    
+
+    .logo{
+        height: 150px;
+        padding: 20px;
+    }
+}
+
+@media(max-width:800px){
+    nav a:hover{
+        top: 0;
+        font-size: 20px;
+    }
+
+    nav a{
+        text-shadow: 3px 0px 7px rgba(255, 196, 0, 0.8), -3px 0px 7px rgba(255, 196, 0, 0.8), 0px 4px 7px rgba(81,67,21,0.8);
+    }
+}
+
+@media(max-width:600px){
+  .espaco{
+    height: 140px;
+  }
+    .button {
+        display: flex;
+      }
+
+    .logo{
+        height: 100px;
+    }
+
+    .cab-logo{
+        width: 100%;
+        padding: 0 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav {
+        margin-top: 100px;
+        padding: 10px;
+        width: 90%;
+        background: black;
+        max-width: 300px;
+        position: fixed;      
+        top: 0;
+        left: 0;
+        height: 400px;
+        pointer-events: auto;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+        transform: translateX(-100%);
+        transition: transform .3s;
+        will-change: transform;
+        contain: paint;
+        z-index: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        border-radius: 0 0 10px 0;
+        
+      }
+
+      nav a{
+        margin: 20px 0;
+      }
+
+    
+
+      header:focus-within .button {
+        pointer-events: none;
+      }
+      header:focus-within nav {
+        transform: none;
+      }
+
+    
+
+      
+
+     
+
+
+}

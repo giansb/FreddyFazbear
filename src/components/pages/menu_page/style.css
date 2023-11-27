@@ -1,0 +1,60 @@
+.cardapio{
+    position: relative;
+    padding: 40px 0;
+}
+
+
+.cardapio h1{
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    
+}
+
+.cardapio-secao h2{
+    color: white;
+}
+
+#bebidas, #lanches{
+    padding: 50px;
+}
+
+
+
+.cardapio-secao{
+    position: relative;
+    width: 90%;
+    border: 3PX solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 40px;
+    
+}
+
+.cardapio-secao h2{
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    background-color: rgb(221, 133, 0);
+    padding: 0 5px;
+}
+
+.cardapio-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardapio-box-cont{
+    text-align: left;
+    margin: 20px 10px;
+}
+
+.preco{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-right: 10px;
+}

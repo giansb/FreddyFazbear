@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&family=Roboto+Slab&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.limit-section{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.secao-estilo{
+  background: url(../public/images/tiles.jpg);
+  
+  background-size: auto;
+
+}
+
+
+
+.limita-secao-estilo{
+  width: 100%;
+  background-color: rgb(221, 133, 0);
+  max-width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 80px 0;
+  
+ 
+}
