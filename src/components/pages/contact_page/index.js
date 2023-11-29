@@ -117,7 +117,7 @@ export default function ContactPage(){
                         
                         
                         <div className="foxy-cont">
-                            <img className="foxy" src="../../../images\Rfg.webp"/>
+                            <img className="foxy" src="./images\Rfg.webp"/>
                             <p>Nos ajude a melhorar nosso atendimento.</p>
                         </div>
                     </div>

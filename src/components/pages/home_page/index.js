@@ -42,7 +42,7 @@ export default function HomePage(){
             <section className="secao-estilo" id="sobre">
                 <div className="limita-secao-estilo">
                     <div className="box-icons">   
-                        <img className="icon-box" src="../../../images/friends.png"></img>  
+                        <img className="icon-box" src="./images/friends.png"></img>  
                     </div>
                     <div className="sobre-cont">
                     <h2>Bem-vindo a Freddy's Fazbear Pizzaria!</h2>
@@ -54,7 +54,7 @@ export default function HomePage(){
             <section className="secao-estilo">
                 <div className="limita-secao-estilo">
                     <div className="secao-promocao">
-                        <img src="../../images/pizza-box.png"></img>
+                        <img src="./images/pizza-box.png"></img>
                         <div className="secao-promocao-cont">
                             <h2>PROMOÇÃO</h2>
                             <p>Pizza familia do Freddy's</p>

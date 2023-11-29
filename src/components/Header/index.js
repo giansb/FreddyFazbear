@@ -17,7 +17,7 @@ export default function Header(){
                     <span className="icon-bar"></span>
                   </div>
                 </div>
-                    <a link href="/"><img className="logo" src="..\images\logo.png"></img></a>
+                    <a link href="/"><img className="logo" src=".\images\logo.png"></img></a>
                 </div>
 
                     <nav>
