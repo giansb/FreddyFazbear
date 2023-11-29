@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/FreddyFazbear/static/css/main.66d45202.css",
+    "main.css": "/FreddyFazbear/static/css/main.60785883.css",
     "main.js": "/FreddyFazbear/static/js/main.df9d7f16.js",
     "static/js/787.90d7dfcd.chunk.js": "/FreddyFazbear/static/js/787.90d7dfcd.chunk.js",
     "static/media/restaurante3.png": "/FreddyFazbear/static/media/restaurante3.8ee9de73db76e4e4531e.png",
@@ -13,12 +13,12 @@
     "static/media/revicons.woff": "/FreddyFazbear/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/logo.svg": "/FreddyFazbear/static/media/logo.96589248e8fe0430bde4be8b410c7774.svg",
     "index.html": "/FreddyFazbear/index.html",
-    "main.66d45202.css.map": "/FreddyFazbear/static/css/main.66d45202.css.map",
+    "main.60785883.css.map": "/FreddyFazbear/static/css/main.60785883.css.map",
     "main.df9d7f16.js.map": "/FreddyFazbear/static/js/main.df9d7f16.js.map",
     "787.90d7dfcd.chunk.js.map": "/FreddyFazbear/static/js/787.90d7dfcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66d45202.css",
+    "static/css/main.60785883.css",
     "static/js/main.df9d7f16.js"
   ]
 }
