@@ -28,6 +28,20 @@
     background-position: center;
     background-size: cover;
     margin: 0 auto;
+    position: relative;
+}
+
+.img-c-d {
+  color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 5px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 80%);
+  width: 100%;
+  text-align: left;
+
 }
 
 .image2{
@@ -37,6 +51,7 @@
     background-position: center;
     background-size: cover;
     margin: 0 auto;
+    position: relative;
 }
 
 .image3{
@@ -46,10 +61,27 @@
     background-position: center;
     background-size: cover;
     margin: 0 auto;
+    position: relative;
 }
 
 .carrousel-container{
     max-width: 1024px;
     margin: 0 auto;
     z-index: 1;
+}
+
+@media(max-width:500px){
+  .image1, .image2, .image3{
+    height: 280px;
+    width: 100%;
+  }
+
+  .contato-cont{
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .foxy-cont p {
+    font-size: 23px;
+  }
 }

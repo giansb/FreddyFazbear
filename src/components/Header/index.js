@@ -23,7 +23,7 @@ export default function Header(){
                     <nav>
                         <HashLink to="/#top">Inicio</HashLink>
                         <HashLink to="/cardapio#top">Cardápio</HashLink>
-                        <HashLink to="/contato" smooth>Contato</HashLink>
+                        <HashLink to="/contato#top" smooth>Contato</HashLink>
                     </nav>
                 </div>
             </div>

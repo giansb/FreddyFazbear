@@ -69,9 +69,15 @@ export default function ContactPage(){
                 <div className="carrousel-container">
                     <Carousel responsive={responsive}>
                     
-                    <div className="image1"></div>
-                    <div className="image2"></div>
-                    <div className="image3"></div>
+                    <div className="image1">
+                        <p className="img-c-d">160 Broadway, New York, Estados Unidos</p>
+                    </div>
+                    <div className="image2">
+                        <p className="img-c-d">1625 Wilshire Blvd, Los Angeles, Estados Unidos.</p>
+                    </div>
+                    <div className="image3">
+                        <p className="img-c-d">2810 S Figueroa St, Los Angeles, Estados Unidos.</p>
+                    </div>
                     </Carousel>
                 </div>
                 </div>
@@ -92,7 +98,7 @@ export default function ContactPage(){
 
                                 <div className="foxy-form-camp">
                                     <label for="cel">celular: </label>
-                                    <input type="text" name="cel" id="telefone"placeholder="(XX) X XXXX-XXXX)" value={numero} onChange={e => setNumero(e.target.value)}></input>
+                                    <input type="text" name="cel" id="telefone"placeholder="(XX) X XXXX-XXXX" value={numero} onChange={e => setNumero(e.target.value)}></input>
                                     
                                 </div>
                                 {numeroErr && <span className="al">Por favor, digite um numero válido</span>}

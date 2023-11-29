@@ -59,7 +59,8 @@ export default function HomePage(){
                             <h2>PROMOÇÃO</h2>
                             <p>Pizza familia do Freddy's</p>
                             <p className="preco-p">R$ 79,90</p>
-                            <a href="/cardapio#top">Cardápio completo</a>
+                            
+                            <a href="#/cardapio#top">Cardápio completo</a>
                         </div>
                     </div>
                 </div>
@@ -67,13 +68,16 @@ export default function HomePage(){
 
             <section className="secao-estilo">
                 <div className="limita-secao-estilo">
+                    <div className="sobre-cont">
+                        <h2 className="clientes-title">Nossos clientes sempre voltam:</h2>
+                    </div>
                     <div className="secao-clientes">
                         <CardCliente nome="Ana Oliveira" relato="A Freddy's Fazbear foi uma descoberta incrível! Amo a variedade de sabores. O atendimento é impecável. Recomendo a todos!"/>
                         <CardCliente nome="Jeremy F." relato="Trabalhei na Freddy Fazbear por um tempo, e mesmo após horas de expediente, nunca me cansei da pizza. O segredo está na receita, com certeza."/>
-                        <CardCliente nome="Fritz Smith" relato="Mesmo depois de algumas mudanças por aqui, a pizza da Freddy Fazbear continua deliciosa. Os animatrônicos dão um toque especial à experiência."/>
-                        <CardCliente nome="" relato="Bem, como entusiasta das pizzas, posso dizer que a Freddy Fazbear tem um sabor único."/>
-                        <CardCliente nome="" relato="Bem, como entusiasta das pizzas, posso dizer que a Freddy Fazbear tem um sabor único."/>
-                        <CardCliente nome="" relato="Bem, como entusiasta das pizzas, posso dizer que a Freddy Fazbear tem um sabor único."/>
+                        <CardCliente nome="Isabela Silva" relato="Adorei a atmosfera única da Freddy Fazbear Pizzaria! Os animatrônicos são incrivelmente realistas, e a comida é deliciosa. Voltarei com certeza!"/>
+                        <CardCliente nome="Fernanda Lima" relato="A Freddy's é o lugar perfeito para uma noite divertida. As animações dos animatrônicos são assustadoramente divertidas, e a pizza é deliciosa."/>
+                        <CardCliente nome="Camila Martins" relato="A Freddy's é minha segunda casa! Amo a pizza, e os animatrônicos sempre me fazem sorrir. Melhor lugar para se divertir."/>
+                        <CardCliente nome="Marina Almeida" relato="A Freddy's é um lugar mágico para quem ama os jogos. A pizza é deliciosa, e a experiência com os animatrônicos é fenomenal."/>
                     </div>
                 </div>
             </section>

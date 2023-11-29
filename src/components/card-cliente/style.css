@@ -9,7 +9,16 @@
     padding: 15px;
     border-radius: 15px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     margin: 15px;
+}
+
+.card-client{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 
