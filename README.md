@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+<img width="100%" src="https://github.com/giansb/FreddyFazbear/assets/107221898/fd3b434d-2721-42a5-b995-20cca5eeafb9">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Freddy's Fazbear Pizzaria
 
-## Available Scripts
+<p>Página feita em React.js da Pizzaria Freddy's Fazbear. Trabalho do curso Técnico.</p>
+<p>A pagina conta com 3 abas: home, cardápio e contato.</p>
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<details closed>
+<summary>Páginas</summary>
+Página home:
+<img width="100%" src="https://github.com/giansb/FreddyFazbear/assets/107221898/d3c0925e-a069-4606-a68b-87edf3027957"/>
 
-### `npm test`
+Página cardápio:
+<img width="100%" src="https://github.com/giansb/FreddyFazbear/assets/107221898/65f23393-fa1c-4fbc-bf17-4959e152cb1d">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Página contato:
+<img width="100%" src="https://github.com/giansb/FreddyFazbear/assets/107221898/08cffd44-b96a-42cc-b058-f31c22a61750">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+</details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## RegEx
 
-### `npm run eject`
+<p>Foi feito o uso de Expressões regulares para validar os campos e-mail e telefone do formulario, junto com o Hook UseState:</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img width="100%" src="https://github.com/giansb/FreddyFazbear/assets/107221898/455a117d-be1a-4339-bbdf-67b8ded0c67f"/>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+##
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Outro elemento que utiliza do UseState é o componente de status do banner. O script recebe um array, com cada dia na semana e seu horário de inicio e fim de funcionamento. Caso o script percorra o array e o horário atual esteja de acordo com o encontrado, o componente recebe o estilo em verde, com o conteúdo "ABERTO". Caso o horário não esteje de acordo, recebe o estilo em vermelho escrito "FECHADO". O horário do site atual é das 11:00 até as 23:00 nos dias úteis
+<img width="100%" src="https://github.com/giansb/FreddyFazbear/assets/107221898/bdb72555-9931-4b82-8316-98bdec6596b0"/>
