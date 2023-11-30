@@ -332,6 +332,10 @@
 
   @media(max-width:700px){
 
+    .letreiro{
+      font-size: 50px;
+    }
+
     .secao-banner{
       height: 220px;
       padding: 0;

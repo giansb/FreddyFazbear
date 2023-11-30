@@ -86,9 +86,7 @@
     flex-flow: column nowrap;
   }
 
-  .foxy-cont p {
-    font-size: 23px;
-  }
+  
 
 
   .al{
@@ -101,7 +99,7 @@
   }
 
   .foxy{
-    width: 150px;
+    width: 100px;
     
   }
 

@@ -12,9 +12,9 @@ export default function ScriptStatus () {
     var funcionamento = [
         {dia:1,horaInicio:11,horaFinal:23,minutoFinal:59},
         {dia:2,horaInicio:11,horaFinal:23,minutoFinal:59},
-        {dia:3,horaInicio:9,horaFinal:23,minutoFinal:59},
-        {dia:4,horaInicio:9,horaFinal:23,minutoFinal:59},
-        {dia:5,horaInicio:9,horaFinal:23,minutoFinal:59},
+        {dia:3,horaInicio:11,horaFinal:23,minutoFinal:59},
+        {dia:4,horaInicio:11,horaFinal:23,minutoFinal:59},
+        {dia:5,horaInicio:11,horaFinal:23,minutoFinal:59},
         {dia:6,horaInicio:11,horaFinal:23,minutoFinal:59},
         {dia:0,horaInicio:11,horaFinal:23,minutoFinal:59},
     ]
