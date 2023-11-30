@@ -70,10 +70,15 @@
     z-index: 1;
 }
 
-@media(max-width:500px){
+@media(max-width:700px){
   .image1, .image2, .image3{
     height: 280px;
     width: 100%;
+  }
+
+  .foxy-form-camp{
+    display: flex;
+    flex-flow: column nowrap;
   }
 
   .contato-cont{
@@ -84,4 +89,35 @@
   .foxy-cont p {
     font-size: 23px;
   }
+
+
+  .al{
+    font-size: 10px;
+  }
+
+  .foxy-form{
+    width: 100%;
+    
+  }
+
+  .foxy{
+    width: 150px;
+    
+  }
+
+  .foxy-cont{
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+  }
+
+  .foxy-cont p {
+    text-align: left;
+    font-size: 20px;
+    width: 110px;
+    padding: 0 12px;
+    
+  }
+
 }
+
